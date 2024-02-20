@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+bg-main{
+    background-color: #f0f2f5;
+}
+
+@layer base {
+#username ,#password {
+    @apply block py-2  border-2 rounded-md w-full p-3 text-lg mb-2;
+}
+}
